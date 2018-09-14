@@ -1,0 +1,50 @@
+/* JavaScript Document
+// Project: RadFlow
+// autohor: Jiri Holub
+// Description: css style */
+
+input {
+    width: 200px !important;
+}
+
+#chart{
+    height: 570px; 
+    width: 100%;
+    background-color: white;
+    font-size: 13px;  
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.jqplot-table-legend{
+    font-size: 13px;    
+}
+
+.jqplot-cursor-tooltip{
+    font-size: 12px !important;  
+}
+
+#apl_data{
+    border: 1px solid lightgray;
+    overflow: auto;
+    height: 570px; 
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+
+#apl_data table{    
+    border-collapse: collapse;
+}
+
+#apl_data table tr th{    
+    font-size: 11px;
+}
+
+#apl_data table tr td{
+    text-align: center;
+    width: 60px;
+    font-size: 12px;
+}
+
+#apl_data table tr:hover{    
+    background-color: lightgrey;
+}

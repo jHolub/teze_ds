@@ -1,0 +1,10 @@
+#chart{
+    margin: 5px;
+    padding: 5px;
+    width: 1100px;
+    height: 500px;
+    background-color: white;
+    font-size: 13px;  
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 1px 1px #888888;
+}

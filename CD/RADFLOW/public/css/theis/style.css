@@ -1,0 +1,56 @@
+/* JavaScript Document
+// Project: RadFlow
+// autohor: Jiri Holub
+// Description: css style */
+
+
+
+#chart{
+  margin: 120px 130px 100px 130px;
+  width: 700px;
+  height: 400px;
+  background-color: white;
+  font-size: 13px;  
+}
+
+#chart1{
+  width: 670px;
+  height: 378px;
+  font-size: 13px;  
+}
+
+.jqplot-table-legend{
+    font-size: 13px;    
+}
+
+.jqplot-cursor-tooltip{
+  font-size: 12px !important;  
+}
+
+#dragg_able{
+    position: absolute;
+    top: 350px;
+    left: 150px;
+}
+
+#border_charts{
+    border: solid 1px gainsboro;
+    box-shadow: 1px 1px 1px 1px #888888;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#dragg_button{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 23px;
+    height: 23px;
+    background-image: url('../../images/aplikace1/move1.png'); 
+    z-index: 100;
+}

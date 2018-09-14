@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>THIES SOLUTION</title>
+        <meta charset="UTF-8">
+
+        <script>
+
+            function factorial(num) {
+                // If the number is less than 0, reject it.
+                if (num < 0) {
+                    return -1;
+                }
+                // If the number is 0, its factorial is 1.
+                else if (num == 0) {
+                    return 1;
+                }
+                // Otherwise, call this recursive procedure again.
+                else {
+                    return (num * factorial(num - 1));
+                }
+            }
+
+            function well_fce(u) {
+
+                suma = 0;
+
+                for (n = 2; n < 20; n++) {
+
+                    if (n % 2 == 0) {
+                        suma = suma - (Math.pow(u, n) / (factorial(n) * n));
+                    } else {
+                        suma = suma + (Math.pow(u, n) / (factorial(n) * n));
+                    }
+                }
+
+                W = -0.577216 - Math.log(u) + u + suma;
+
+                return W;
+
+            }
+            /* ZK, WIKI
+             r = 400;
+             S =  0.000024;
+             T = 1400;
+             Q = 42400;
+             500min = 0.3472den
+             */
+            r = 1950;
+
+            S = 0.000125;
+
+            //T = 0.0012379;
+            //T = 106.95; // m2/den
+            T = 0.00049799; // m2/min
+
+            //Q = 0.0023;
+            //Q = 198.72; // m3/den
+            Q = 0.00023;  // m3/min
+
+            t = new Array(260000,2600000,2600000);
+            
+
+
+            
+            res = "";
+            for (i = 0; i < t.length; i++) {
+
+                u = ((r * r) * S) / (4 * T * t[i]);
+
+                s = (Q / (4 * Math.PI * T)) * well_fce(u);
+
+//console.log(u);
+//console.log(well_fce(u));                
+                console.log(s);
+                //res = res + "s " + s + " t: " + t[i] + "<br>"
+                res = res + s + "<br>"
+            }
+            document.write(res);
+        </script>
+
+
+    </head>
+    <body>
+
+    </body>
+</html>

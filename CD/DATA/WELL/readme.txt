@@ -1,0 +1,1 @@
+Tyto datové sady poskytla společnost Vodní zdroje a.s. (https://www.vodnizdroje.cz/).
