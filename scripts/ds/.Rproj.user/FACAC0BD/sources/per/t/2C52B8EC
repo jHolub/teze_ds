@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1546720114700.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4084450634",
+    "id" : "2C52B8EC",
+    "lastKnownWriteTime" : 1546720999,
+    "last_content_update" : 1546720999087,
+    "path" : "F:/DS/scripts/ds/sv.R",
+    "project_path" : "sv.R",
+    "properties" : {
+        "cursorPosition" : "15,9",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
